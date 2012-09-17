@@ -37,7 +37,7 @@ Or check out [www.gastonsanchez.com/assotester](http://www.gastonsanchez.com/ass
 
 Links
 -----
-[colortools package github](http://github.com/gastonstat/AssotesteR)
+[AssotesteR package github](http://github.com/gastonstat/AssotesteR)
 
 [The R Project](http://www.r-project.org/)
 
