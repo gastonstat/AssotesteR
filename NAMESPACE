@@ -1,0 +1,82 @@
+
+useDynLib(AssotesteR)
+
+# functions
+export(
+ ASCORE.Ord,
+ ASCORE,
+ ASSU.Ord,
+ ASSU,
+ ASSUW.Ord,
+ ASSUW,
+ ASUM.Ord,
+ ASUM,
+ BST,
+ CALPHA,
+ CARV,
+ CAST,
+ CMAT,
+ CMC,
+ GDBR,
+ ORWSS,
+ RARECOVER,
+ RBT,
+ RVT1,
+ RVT2,
+ RWAS,
+ SCORE,
+ SEQSUM,
+ SKAT,
+ SSU,
+ SSUW,
+ SUM,
+ TTEST,
+ UMINP,
+ VT,
+ WSS,
+ WST,
+ MULTI)
+
+# S3 methods
+S3method(print, assoctest)
+
+# add-in functions for GDBR and SKAT (not documented)
+# gdbr_IBS
+# gdbr_wIBS
+# kernel_IBS
+# kernel_twowayx
+# kernel_wIBS
+
+# internal functions (NOT to be called by the user)
+# my_ascore_method
+# my_assu_method
+# my_assuw_method
+# my_asum_method
+# my_bst_method
+# my_calpha_method
+# my_check
+# my_cmat_method
+# my_cmc_method
+# my_gdbr_fstat
+# my_getUV
+# my_orwss_method
+# my_rarecov_method
+# my_rbt_method
+# my_rvt1_method
+# my_rvt2_method
+# my_rwas_method
+# my_score_method
+# my_ssu_method
+# my_ssuw_method
+# my_sum_method
+# my_uminp_method
+# my_uni_score
+# my_vt_method
+# my_weights_wss
+# my_wss_method
+# my_wst_method
+# my_weights_wss
+# my_score_carv
+# my_hard_approach
+# my_variable_approach
+# my_stepup_approach

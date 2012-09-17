@@ -1,0 +1,57 @@
+Package: AssotesteR
+Type: Package
+Title: Statistical Tests for Genetic Association Studies
+Version: 0.1-7
+Date: 2012-09-17
+Author: Gaston Sanchez
+Maintainer: Gaston Sanchez <gaston.sanchez@berkeley.edu>
+Depends:
+    mvtnorm
+Description: R package with statistical tests and methods for genetic
+    association studies with emphasis on rare variants and binary (dichotomous)
+    traits
+License: GPL (>= 3)
+URL: http://www.gastonsanchez.com/assotester
+LazyLoad: yes
+Collate:
+    'ASCORE.Ord.R'
+    'ASCORE.R'
+    'ASSU.Ord.R'
+    'ASSU.R'
+    'ASSUW.Ord.R'
+    'ASSUW.R'
+    'ASUM.Ord.R'
+    'ASUM.R'
+    'AssotesteR-internal.R'
+    'BST.R'
+    'CALPHA.R'
+    'CARV.R'
+    'CAST.R'
+    'CMAT.R'
+    'CMC.R'
+    'GDBR.R'
+    'MULTI.R'
+    'ORWSS.R'
+    'RARECOVER.R'
+    'RBT.R'
+    'RVT1.R'
+    'RVT2.R'
+    'RWAS.R'
+    'SCORE.R'
+    'SEQSUM.R'
+    'SKAT.R'
+    'SSU.R'
+    'SSUW.R'
+    'SUM.R'
+    'TTEST.R'
+    'UMINP.R'
+    'VT.R'
+    'WSS.R'
+    'WST.R'
+    'gdbr_IBS.R'
+    'gdbr_wIBS.R'
+    'kernel_IBS.R'
+    'kernel_twowayx.R'
+    'kernel_wIBS.R'
+    'my_check.R'
+    'print.assoctest.R'
