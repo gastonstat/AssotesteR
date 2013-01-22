@@ -77,7 +77,7 @@ function(y, X, perm=100)
       x.perm[i] = my_wss_method(y[perm.sample], X) 
     }
     # p-value 
-    perm.pval = sum(x.perm > wss.stat) / perm
+    perm.pval = sum(x.perm >= wss.stat) / perm
   }
   
   ## results
