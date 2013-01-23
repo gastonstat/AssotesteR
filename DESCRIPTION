@@ -1,8 +1,8 @@
 Package: AssotesteR
 Type: Package
 Title: Statistical Tests for Genetic Association Studies
-Version: 0.1-8
-Date: 2013-01-22
+Version: 0.1-9
+Date: 2013-01-23
 Author: Gaston Sanchez
 Maintainer: Gaston Sanchez <gaston.sanchez@berkeley.edu>
 Depends:

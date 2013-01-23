@@ -11,8 +11,8 @@
   \tabular{ll}{
     Package: \tab AssotesteR\cr
     Type: \tab Package\cr
-    Version: \tab 0.1-8\cr
-    Date: \tab 2013-01-22\cr
+    Version: \tab 0.1-9\cr
+    Date: \tab 2013-01-23\cr
     Depends: \tab mvtnorm\cr
     License: \tab GPL (>= 3)\cr
     URL: \tab http://www.gastonsanchez.com/assotester \cr

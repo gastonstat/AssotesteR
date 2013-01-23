@@ -820,7 +820,8 @@ function(casecon, gen)
   
   ## calculate genetic score	
   score = rowSums(gen %*% diag(1/w), na.rm=TRUE) 
-  rank.score = order(score)
+  # rank.score = order(score)
+  rank.score = rank(score)
   
   ## sum of ranks of cases
   x = sum(rank.score[casecon==1])
