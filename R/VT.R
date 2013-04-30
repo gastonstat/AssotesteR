@@ -88,7 +88,7 @@ function(y, X, maf=0.05, perm=100)
       x.perm[i] = my_vt_method(y[perm.sample], X, mafs, h.maf)
     }
     ## p-value
-    perm.pval = sum(x.perm > vt.stat) / perm
+    perm.pval = sum(x.perm >= vt.stat) / perm
   }
   
   ## results

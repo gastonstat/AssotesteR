@@ -1,3 +1,7 @@
+Version 0.1-10 (2013-04-30)
+------------------------------------------------------------
+* `VT` changing permutation formula from '>' to '>='
+
 Version 0.1-9 (2013-01-23)
 ------------------------------------------------------------
 * `my_wss_method` changing order(score) to rank(score)
